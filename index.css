@@ -62,13 +62,13 @@ section {
 
 }
 
-.main h1 {
+.main h2 {
     color: black;
     font-size: 1.6em;
     font-weight: 500;
 }
 
-.main h1 span {
+.main h2 span {
     display: inline-block;
     margin-top: 10px;
     color: brown;
