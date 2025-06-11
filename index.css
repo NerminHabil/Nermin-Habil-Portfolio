@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    /* background:linear-gradient(to bottom , #8b1b13 ,#f5f5dc); */
     
 }
 header{
@@ -28,6 +27,7 @@ header{
 }
 a{
     text-decoration: none;
+    color: brown;
 }
     
 .navigation a{
@@ -66,6 +66,9 @@ section{
     font-size: 3em;
     font-weight: 600;
 }
+.main h2{
+    font-size: 1.5em;
+}
 .main h3{
     color: black;
     font-size: 2em;
@@ -93,7 +96,7 @@ section{
 }
 .social-icon a{
     color:crimson;
-    font-size: 1.7em;
+    font-size: 3em;
     padding-right: 30px;
 
 }
@@ -103,7 +106,7 @@ section{
     color: brown;
     font-size: 2.2em;
     font-weight: 800;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .contant{
     display: flex;
@@ -113,7 +116,7 @@ section{
 }
 .card{
     background-color: white;
-    width:21.25em;
+    width:15.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 15%;
     padding: 25px;
@@ -142,16 +145,16 @@ section{
 background-color: white;
  }
  .project.contant{
-    margin-top: 30px;
+    margin-top: 10px;
  }
  .pro-card{
 background-color: white;
 border: 1px solid white;
 min-height: 14em;
-width: 20em;
+width: 15em;
 overflow: hidden;
 border-radius: 10px;
-margin: 20px;
+margin: 10px;
 transition: 0.7s ease;
  }
  .pro-card:hover{
@@ -205,23 +208,6 @@ font-size: 4.5em;
     text-decoration: none;
 
  }
-/* form
-{
- margin-left: 40%;
-    box-sizing: border-box;
-justify-content: center;
-justify-items: center; 
-
-    
-} */
-
-/* input:hover{
-border-color: blue;
-}
-input{
-    
-    border-color: brown;
-} */
  .footer{
     background-color: beige;
     color:brown;
@@ -230,14 +216,14 @@ input{
     justify-content: space-between;
  }
  .footertitle{
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 600;
  }
  .footertitle span{
     color:crimson;
  }
  .footer .social-icon a{
-    font-size: 1.3em;
+    font-size: 1.5em;
     padding: 0 12px 0 0;
  }
  @media (max-width:1023px){
