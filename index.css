@@ -48,30 +48,28 @@ section{
     min-height:100vh;
     display: flex;
     align-items: center;
-    background: url("nee.jpg") no-repeat  ;
+    /* background: url("nee.jpg") no-repeat  ; */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     
 }
-.main h2{
+.main h1{
     color: black;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-weight: 500;
 }
-.main h2 span{
+.main h1 span{
     display: inline-block;
     margin-top: 10px;
     color:brown;
     font-size: 3em;
     font-weight: 600;
 }
-.main h2{
-    font-size: 1.5em;
-}
+
 .main h3{
     color: black;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 10px;
@@ -208,6 +206,51 @@ font-size: 4.5em;
     text-decoration: none;
 
  }
+ form input, form textarea {
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid brown;
+    outline: none;
+
+  }
+  
+  form button {
+    background-color: brown;
+    color: white;
+    font-size: 1em;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  form button:hover {
+    background-color: crimson;
+  } 
+  .location{
+    display: flex;
+    color: brown;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .Location h3{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: brown;
+  }
+  
+  
+  .location-link{
+    text-decoration: none;
+    color: blue;
+    font-size: 0.75em;
+    font-weight: 300px;
+    margin-top: 10px;
+  }
  .footer{
     background-color: beige;
     color:brown;
@@ -247,7 +290,7 @@ section{
    font-size: 1.6em;
 }
 .contant{
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
  }
