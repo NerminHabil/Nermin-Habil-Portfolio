@@ -318,7 +318,7 @@ form button:hover {
 
 @media (max-width:1023px) {
     header {
-        padding: 12px 20px;
+        padding: 12px 10px;
     }
 
     .navigation a {
@@ -327,7 +327,7 @@ form button:hover {
     }
 
     .title {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 
     section {
@@ -365,5 +365,10 @@ form button:hover {
 @media(max-width:300px) {
     body {
         font-size: 10px;
+    }
+    header {
+        padding: 5px 5px;
+        width: 100%;
+        margin: 0px;
     }
 }
